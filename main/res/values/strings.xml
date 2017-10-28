@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TrackIn</string>
+    <string name="title_activity_maps">TrackIn</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="track_me">Track Me!</string>
+    <string name="coordinates">Get Coordinates</string>
+    <string name="address">Get Address</string>
+    <string name="heading">TrackIn</string>
+    <string name="title_activity_gps">GPS</string>
+    <string name="lattitude">Lattitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="Go">Take me there!</string>
+    <string name="address_value">Address:</string>
+    <string name="name">Place</string>
+    <string name="button1">Submit</string>
+</resources>

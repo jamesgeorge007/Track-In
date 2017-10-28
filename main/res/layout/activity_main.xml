@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101020"
+    tools:context="com.trackin.iodroid.trackin.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <!--app:layout_constraintTop_toBottomOf="@+id/button1"-->
+        <!--tools:layout_constraintBottom_creator="1"-->
+        <!--tools:layout_constraintLeft_creator="1"-->
+        <!--tools:layout_constraintRight_creator="1"-->
+        <!--tools:layout_constraintTop_creator="1" />-->
+
+    <!--android:layout_marginEnd="51dp"-->
+        <!--android:layout_marginStart="51dp"-->
+        <!--android:layout_marginTop="119dp"-->
+        <!--android:text="@string/track_me"-->
+        <!--android:textSize="25sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/imageView"-->
+        <!--tools:layout_constraintLeft_creator="1"-->
+        <!--tools:layout_constraintRight_creator="1"-->
+        <!--tools:layout_constraintTop_creator="1"-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="168dp"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/trackin"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1" />
+        <!--app:layout_constraintRight_toRightOf="@+id/button1"-->
+        <!--tools:layout_constraintLeft_creator="1"-->
+        <!--&lt;!&ndash;app:layout_constraintLeft_toLeftOf="@+id/button1"&ndash;&gt;-->
+        <!--android:layout_marginTop="-36dp" />-->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/heading"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#00bfff"
+        android:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="54dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:onClick="Track"
+        android:text="@string/track_me"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintHorizontal_bias="0.504" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="278dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="104dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:onClick="address"
+        android:text="@string/address"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="281dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="31dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:onClick="Coordinate"
+        android:text="@string/coordinates"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="20dp" />
+
+</android.support.constraint.ConstraintLayout>
